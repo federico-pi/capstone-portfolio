@@ -2,21 +2,307 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Capstone Portfolio</title>
+
+    <!-- mobile responsive meta -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="img/...">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
-    <script src="js/app.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <!-- themefy-icon -->
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
   </head>
+
   <body>
-    <header>
+    <header class="navigation fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand font-tertiary h3" href="#top">Fred's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <main>
-    </main>
-    <footer>
+
+    <!-- hero area -->
+    <section class="hero-area bg-primary" id="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11 mx-auto">
+            <h1 class="text-white font-tertiary">Hi! <br> I’m Fred <br> Frontend <br> Developer</h1>
+          </div>
+        </div>
+      </div>
+      <div class="layer-bg w-100">
+        <img class="img-fluid w-100" src="images/illustrations/leaf-bg.png" alt="bg-shape">
+      </div>
+      <div class="layer" id="l2">
+        <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
+      </div>
+      <div class="layer" id="l3">
+        <img src="images/illustrations/leaf-orange.png" alt="bg-shape">
+      </div>
+      <div class="layer" id="l4">
+        <img src="images/illustrations/dots-orange.png" alt="bg-shape">
+      </div>
+      <div class="layer" id="l5">
+        <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
+      </div>
+      <div class="layer" id="l6">
+        <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
+      </div>
+      <div class="layer" id="l7">
+        <img src="images/illustrations/dots-group-orange.png" alt="bg-shape">
+      </div>
+      <div class="layer" id="l8">
+        <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape">
+      </div>
+      <div class="layer" id="l9">
+        <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
+      </div>
+    </section>
+    <!-- /hero area -->
+
+    <!-- about -->
+    <section class="section about-s">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <p class="font-secondary paragraph-lg text-dark">
+              Left my hometown at 18 to follow my entrepreneurial dreams and traveled over 20 countries since – Throughout the years I’ve worked various jobs while savoring life and getting to meet amazing people from all around the world.
+              <br>
+              <br>
+              I’m now studying full-time with the Treehouse bootcamp to become a frontend developer and am absolutely thrilled for the challenges and opportunities ahead.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /about -->
+
+    <!-- skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-title">Skills</h2>
+          </div>
+          <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
+                <div class="wave" data-progress="70%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">HTML</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
+                <div class="wave" data-progress="65%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">CSS</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
+                <div class="wave" data-progress="70%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">Sass</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
+                <div class="wave" data-progress="60%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">Bootstrap</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div class="position-relative rounded-top progress-wrapper" data-color="#e6c86e">
+                <div class="wave" data-progress="60%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">Javascript</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div class="position-relative rounded-top progress-wrapper" data-color="#508cd7">
+                <div class="wave" data-progress="65%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">React.js</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div class="position-relative rounded-top progress-wrapper" data-color="#d77355">
+                <div class="wave" data-progress="75%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">Node.js</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div class="position-relative rounded-top progress-wrapper" data-color="#64b964">
+                <div class="wave" data-progress="65%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">Python</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /skills -->
+
+    <!-- portfolio -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="section-title">Projects</h2>
+          </div>
+        </div>
+        <div class="row shuffle-wrapper">
+          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="position-relative rounded hover-wrapper">
+              <img src="images/portfolio/dashboard.png" alt="dashboard-image" class="img-fluid rounded w-100">
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="position-relative rounded hover-wrapper">
+              <img src="images/portfolio/directory.png" alt="directory-image" class="img-fluid rounded w-100">
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="position-relative rounded hover-wrapper">
+              <img src="images/portfolio/guide.png" alt="guide-image" class="img-fluid rounded w-100">
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="position-relative rounded hover-wrapper">
+              <img src="images/portfolio/form.png" alt="form-image" class="img-fluid rounded w-100">
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="position-relative rounded hover-wrapper">
+              <img src="images/portfolio/game.png" alt="game-image" class="img-fluid rounded w-100">
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="position-relative rounded hover-wrapper">
+              <img src="images/portfolio/gallery.png" alt="gallery-image" class="img-fluid rounded w-100">
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /portfolio -->
+
+    <!-- footer -->
+    <footer class="bg-dark">
+      <div class="section footer-s">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="d-flex flex-column col-3 ol-md-4 mb-4">
+              <a class="text-white mb-3 ml-4" href="https://www.linkedin.com/in/fredbalzi/" target="_blank"><i class="ti-linkedin"></i></a>
+              <a class="text-white mb-3 ml-4" href="https://github.com/fred-pi" target="_blank"><i class="ti-twitter"></i></a>
+              <a class="text-white mb-3 ml-4" href="https://twitter.com/fredbalzi" target="_blank"><i class="ti-github"></i></a>
+            </div>
+            <div class="col-9 mb-4">
+              <h5 class="text-light">Email</h5>
+              <p class="text-white paragraph-lg font-secondary">balzi.fred@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
+  <!-- /footer -->
+
+  <!-- jQuery -->
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="plugins/shuffle/shuffle.min.js"></script>
+  <!-- Main Script -->
+  <script src="js/script.js"></script>
+
   </body>
 </html>

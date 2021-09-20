@@ -499,6 +499,36 @@ textarea.form-control {
   padding-bottom: 20px;
 }
 
+.main-title {
+  font-size: 32px;
+}
+
+.bigger-titles {
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+#skills div div div h2 {
+  margin-bottom: 30px;
+}
+
+.paragraph-about {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 50px;
+  }
+
+  .bigger-titles {
+    font-size: 38px;
+  }
+
+  .paragraph-about {
+    font-size: 22px;
+  }
+}
 /* skills */
 .progress-wrapper {
   height: 130px;
@@ -546,7 +576,7 @@ textarea.form-control {
   border: 2px solid #f9f9f9;
 }
 .hover-wrapper img {
-  transition: 0.3s ease;
+  transition: 0.35s ease-out;
 }
 .hover-wrapper:hover .hover-overlay {
   opacity: 1;
@@ -560,10 +590,10 @@ textarea.form-control {
   border-radius: inherit;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.45);
   opacity: 0;
   visibility: hidden;
-  transition: 0.3s ease;
+  transition: 0.35s ease-out;
 }
 
 .hover-content {
@@ -575,6 +605,29 @@ textarea.form-control {
   text-align: center;
 }
 
+.project-paragraph {
+  color: white;
+  font-weight: 400;
+  font-size: 1.08em;
+  padding: 8px 28px;
+}
+
+.project-paragraph-h {
+  font-weight: 700;
+  font-size: 1.35em;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.no-show-para {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .no-show-para {
+    display: block;
+  }
+}
 /* /portfolio */
 /* footer */
 .footer-section {

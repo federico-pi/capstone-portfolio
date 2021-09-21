@@ -11,10 +11,10 @@
 
 .bigger-titles {
   font-size: 28px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
-#skills div div div h2 {
+.skills div div div h2 {
   margin-bottom: 30px;
 }
 
@@ -55,7 +55,7 @@
     height: 800px;
     bottom: 0;
     left: 50%;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .2);
     border-radius: 45%;
     transform: translateX(-50%) rotate(0);
     animation: rotate 6s linear infinite;
@@ -110,7 +110,7 @@
   border-radius: inherit;
   top: 0;
   left: 0;
-  background: rgba($color: $black, $alpha: .45);
+  background: rgba($color: $black, $alpha: .6);
   opacity: 0;
   visibility: hidden;
   transition: .35s ease-out;
@@ -133,7 +133,7 @@
 }
 
 .project-paragraph-h {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1.35em;
   color: white;
   margin-bottom: 8px;

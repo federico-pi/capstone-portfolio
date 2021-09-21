@@ -30,3 +30,21 @@
 .navbar-dark .navbar-nav .nav-link{
   color: $white;
 }
+
+.profile-container {
+  display: flex;
+  margin: auto 0;
+}
+
+.profile-nav {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  margin-top: 2px;
+}
+
+.navbar-brand {
+  margin-left: 18px;
+  margin-top: 6px;
+  font-size: 23px;
+}

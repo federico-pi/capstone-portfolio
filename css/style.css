@@ -339,7 +339,6 @@ template {
   display: none;
 }
 
-/*  typography */
 @font-face {
   font-family: "BwNistaInt-xBd";
   src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
@@ -405,7 +404,6 @@ h6, .h6 {
   font-size: 14px;
 }
 
-/* Button style */
 .btn {
   font-size: 22px;
   font-family: "Playfair Display", serif;
@@ -475,7 +473,6 @@ body {
   visibility: hidden;
 }
 
-/* preloader */
 .preloader {
   position: fixed;
   top: 0;
@@ -545,7 +542,6 @@ a:hover {
   background-repeat: no-repeat;
 }
 
-/* overlay */
 .overlay {
   position: relative;
 }
@@ -660,7 +656,6 @@ a:hover {
   background-color: #222222 !important;
 }
 
-/* icon */
 .icon {
   font-size: 45px;
 }
@@ -676,8 +671,6 @@ a:hover {
   color: #c8d5ef;
 }
 
-/* /icon */
-/* slick slider */
 .slick-dots {
   text-align: center;
   padding-left: 0;
@@ -701,8 +694,6 @@ a:hover {
   border: 0;
 }
 
-/* /slick slider */
-/* form */
 .form-control {
   border: 0;
   border-radius: 0;
@@ -719,8 +710,6 @@ textarea.form-control {
   height: 120px;
 }
 
-/* /form */
-/* card */
 .card {
   border: 0;
 }
@@ -731,7 +720,6 @@ textarea.form-control {
   border: 0;
 }
 
-/* /card */
 .navigation {
   padding: 40px 130px;
   transition: 0.3s ease;
@@ -854,7 +842,6 @@ textarea.form-control {
   left: 0;
 }
 
-/* About */
 .about-s {
   padding-top: 80px;
   padding-bottom: 20px;
@@ -890,7 +877,6 @@ textarea.form-control {
     font-size: 22px;
   }
 }
-/* skills */
 .progress-wrapper {
   height: 130px;
   overflow: hidden;
@@ -930,8 +916,6 @@ textarea.form-control {
     transform: translateX(-50%) rotate(360deg);
   }
 }
-/* /skills */
-/* portfolio */
 .hover-wrapper {
   overflow: hidden;
   border: 2px solid #f9f9f9;
@@ -1013,8 +997,6 @@ textarea.form-control {
     margin-bottom: 8px;
   }
 }
-/* /portfolio */
-/* footer */
 .footer-section {
   padding-top: 200px;
 }
@@ -1044,7 +1026,5 @@ textarea.form-control {
 .footer-cont {
   height: 60px;
 }
-
-/* /footer */
 
 /*# sourceMappingURL=style.css.map */
